@@ -24,7 +24,7 @@ It uses the [Fitbit API](https://dev.fitbit.com/docs/basics/) to access the data
 It is important to use the last three points as listed above.
 
 **3. Copy the credentials (Application Name, Client ID and Client Secret) into the file `~/.fitbitr`,
-each with its own row:**
+each to its own row:**
 
 ```
 <Application Name>
