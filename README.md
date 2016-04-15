@@ -3,7 +3,7 @@
 ## Description 
 
 This package provides functions to get your Fibit intraday activity data in R in a tidy form. 
-It uses the [Fitbit API](https://dev.fitbit.com/docs/basics/) to access the data. The maximal time resolution for the heart rate data is 1 second and 1 minute for other features (package [fitbitScraper](https://cran.r-project.org/web/packages/fitbitScraper/index.html) allows for maximal time resolution of 15 minutes)
+It uses the [Fitbit API](https://dev.fitbit.com/docs/basics/) to access the data. The maximal time resolution for the heart rate data is 1 second and 1 minute for other features (as a comparison, intraday time resolution of the [fitbitScraper](https://cran.r-project.org/web/packages/fitbitScraper/index.html) package is 15 minutes)
 
 Available intraday features:
 
