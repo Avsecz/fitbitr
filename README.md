@@ -2,8 +2,18 @@
 
 ## Description 
 
-This package provides functions to get your Fibit activity data in R in a tidy form. 
-It uses the [Fitbit API](https://dev.fitbit.com/docs/basics/) to access the data.
+This package provides functions to get your Fibit intraday activity data in R in a tidy form. 
+It uses the [Fitbit API](https://dev.fitbit.com/docs/basics/) to access the data. The maximal time resolution for the heart rate data is 1 second and 1 minute for other features.
+
+Available intraday features:
+
+- calories
+- steps
+- distance
+- floors
+- elevation
+- hear rate
+
 
 ## Installation
 
