@@ -5,6 +5,21 @@
 This package provides functions to get your Fibit activity data in R in a tidy form. 
 It uses the [Fitbit API](https://dev.fitbit.com/docs/basics/) to access the data.
 
+## Installation
+
+```r
+install_github("avsecz/fitbitr")
+```
+
+## Provided functions
+
+- `get_fitbit_token`
+- `get_activity`
+- `refresh_fitbit_token`
+- `rate_limit`
+- `fitbit_GET`
+- `fitbit_parse`
+
 ## Usage
 
 ### 1. Authorization
@@ -49,7 +64,7 @@ chmod 600 ~/.fitbitr
 **5. Install the `fitbitr` package and create the access token in R:**
 
 ```r
-## devtools::install_github("fitbitr", "avsecz")
+## install_github("avsecz/fitbitr")
 library(fitbitr)
 token <- get_fitbit_token()
 ```
