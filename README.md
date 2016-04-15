@@ -8,7 +8,7 @@ It uses the [Fitbit API](https://dev.fitbit.com/docs/basics/) to access the data
 ## Installation
 
 ```r
-install_github("avsecz/fitbitr")
+devtools::install_github("avsecz/fitbitr")
 ```
 
 ## Provided functions
