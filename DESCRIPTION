@@ -1,0 +1,20 @@
+Package: fitbitr
+Title: An R Interface To The Fitbit API
+Version: 0.0.0.9000
+Date: 2016-04-04
+Authors@R: person("Ziga", "Avsec", email = "avsec@in.tum.de", role = c("aut", "cre"))
+Description: This package provides functions to get your Fibit activity data in a tidy form. 
+    It uses the Fitbit API to access the data.
+Depends:
+    R (>= 3.2.3)
+License: GPL-3
+LazyData: true
+URL: https://github.com/Avsecz/fitbitr
+BugReports: https://github.com/Avsecz/fitbitr/issues
+Imports:
+    data.table (>= 1.9.6),
+    httr (>= 1.1.0),
+    httpuv (>= 1.3.3),
+    jsonlite (>= 0.9.19),
+    RCurl (>= 1.95-4.7)
+RoxygenNote: 5.0.1
