@@ -42,7 +42,7 @@ devtools::install_github("avsecz/fitbitr")
 - **Organization:** 'GetMyData'  (*free choice*)
 - **Organization Website:** 'https://github.com/' (*free choice*)
 - **OAuth 2.0 Application Type:** 'Personal'
-- **Callback URL:** 'http://localhost:1410'
+- **Callback URL:** 'http://localhost:1410/'  (note the slash at the end, related to [#2](https://github.com/Avsecz/fitbitr/issues/2))
 - **Default Access Type:** 'Read-only'
 
 It is important to use the last three points as listed above.
